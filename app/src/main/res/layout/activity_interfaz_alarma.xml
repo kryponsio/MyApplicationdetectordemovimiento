@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/main4"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:background="@drawable/fondo"
+android:layout_height="match_parent"
+android:padding="16dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Configurar alarma al Hogar"
+    android:textSize="24sp"
+    android:textColor="@color/white"
+    android:layout_gravity="center"
+    android:paddingBottom="24dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Patio Principal"
+    android:textSize="18sp"
+    android:textColor="@color/white"
+    android:paddingBottom="8dp" />
+
+<EditText
+    android:id="@+id/access_1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:hint="Clave para activar/desactivar"
+    android:padding="12dp"
+    android:textColorHint="#8B5F9B" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="24dp">
+
+    <Button
+        android:id="@+id/Activar"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="Activar" />
+
+    <Button
+        android:id="@+id/Desactivar"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="Desactivar" />
+</LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Living/Comedor"
+    android:textSize="18sp"
+    android:paddingBottom="8dp"
+    android:textColor="@color/white" />
+
+<EditText
+    android:id="@+id/access_2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Clave para activar/desactivar"
+    android:padding="12dp"
+    android:layout_marginBottom="16dp"
+    android:textColorHint="#8B5F9B" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp">
+
+        <Button
+            android:id="@+id/Activar2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Activar" />
+
+        <Button
+            android:id="@+id/Desactivar2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Desactivar" />
+    </LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Dormitorios"
+    android:textSize="18sp"
+    android:paddingBottom="8dp"
+    android:textColor="@color/white" />
+
+<EditText
+    android:id="@+id/access_3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Clave para activar/desactivar"
+    android:textColorHint="#8B5F9B"
+    android:padding="12dp"
+    android:layout_marginBottom="16dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="24dp">
+
+    <Button
+        android:id="@+id/Activar3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="Activar" />
+
+    <Button
+        android:id="@+id/Desactivar3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="Desactivar" />
+
+</LinearLayout>
+    <Button
+        android:id="@+id/inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Inicio" />
+</LinearLayout>
